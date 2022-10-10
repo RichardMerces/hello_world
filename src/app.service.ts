@@ -6,7 +6,7 @@ export class AppService {
     return 'Hello World!';
   }
   getBsm(): string {
-    return 'Responsabilida Pessoal, Trabalho em equipe, Comunicação, Persistência, Proatividade, Atenção aos detalhes, Orientação ao futuro e Mentalidade de crescimento'
+    return '<ol><li>Responsabilida Pessoal</li><li>Trabalho em equipe</li><li>Comunicação</li><li>Persistência</li><li>Proatividade</li><li>Atenção aos detalhes</li><li>Orientação ao futuro</li><li>Mentalidade de crescimento</li></ol>'
   }
   getObjetivos(): string {
     return 'NestJS'
